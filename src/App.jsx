@@ -19,6 +19,7 @@ function App() {
         <ComponentA/>
         <LoginStatus/>
         <Rodape/>
+        <MenuSuperior/>
       </div>
       
     </>
