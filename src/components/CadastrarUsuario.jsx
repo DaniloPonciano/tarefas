@@ -34,6 +34,12 @@ return (
                     <input type="email" className="form-control" id="email" required autoFocus 
                     {...register("email")} />
                 </div>
+                {/* Campo senha */}
+                <div className = "form-group">
+                    <label htmlFor="senha">Senha</label>
+                    <input type="password" className="form-control" id="senha" required autoFocus 
+                    {...register("senha")} />
+                </div>
             </form>
         </div>
     </div>
